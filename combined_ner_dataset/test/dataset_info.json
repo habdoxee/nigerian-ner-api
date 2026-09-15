@@ -1,0 +1,32 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "tokens": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "ner_tags": {
+      "feature": {
+        "names": [
+          "B-DATE",
+          "B-LOC",
+          "B-ORG",
+          "B-PER",
+          "I-DATE",
+          "I-LOC",
+          "I-ORG",
+          "I-PER",
+          "O"
+        ],
+        "_type": "ClassLabel"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
