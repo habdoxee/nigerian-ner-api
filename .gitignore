@@ -8,7 +8,6 @@ combined_ner_dataset/
 combined_ner_dataset_v2/
 combined_ner_dataset_case_aug/
 silver_training_data/
-ner_model_pruned/
 afro-xlmr-ner-model/
 masakhane-ner-main/
 ChromeSetup.exe

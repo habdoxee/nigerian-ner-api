@@ -6,3 +6,4 @@ __pycache__/
 BOTTOKEN.txt
 noisy_eval/
 ner_model_v3_caseaug/
+ner_model_quantized/

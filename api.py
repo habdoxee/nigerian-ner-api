@@ -50,7 +50,7 @@ from gazetteer_lookup import Gazetteer
 # Point this at the QUANTIZED model folder produced by quantize_model.py,
 # not the original ner_model_final -- the quantized version is what actually
 # fits Render's free-tier memory limit.
-MODEL_PATH = "./ner_model_quantized"
+MODEL_PATH = "./ner_model_pruned"
 
 app = FastAPI(
     title="Nigerian Text NER API",
@@ -89,14 +89,8 @@ def load_model():
     # the saved weights into that matching structure -- mirroring exactly
     # what quantize_model.py did when it created this folder.
     tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
-    config = AutoConfig.from_pretrained(MODEL_PATH)
-    base_model = AutoModelForTokenClassification.from_config(config)
-    quantized_model = torch.quantization.quantize_dynamic(
-        base_model, {torch.nn.Linear}, dtype=torch.qint8
-    )
-    state_dict = torch.load(f"{MODEL_PATH}/pytorch_model.bin", map_location="cpu")
-    quantized_model.load_state_dict(state_dict)
-    quantized_model.eval()
+    from pruned_embed import load_pruned_model
+    quantized_model = load_pruned_model(MODEL_PATH)
 
     ner_pipeline = pipeline(
         "token-classification",
