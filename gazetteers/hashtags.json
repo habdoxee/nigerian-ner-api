@@ -1,0 +1,8 @@
+{
+  "naija": ["GPE", "Nigeria", "Country (nickname)"],
+  "9ja": ["GPE", "Nigeria", "Country (nickname)"],
+  "endsars": ["EVENT", "#EndSARS protests", "Political Movement"],
+  "lagostraffic": ["GPE", "Lagos", "Nigerian City"],
+  "lagosrail": ["ORG", "Lagos Rail Mass Transit", "Infrastructure Project"],
+  "dettydecember": ["EVENT", "Detty December", "Seasonal Cultural Event"]
+}

@@ -1,0 +1,24 @@
+{
+  "_comment": "Notable Nigerian government buildings, landmarks, and ministries not already covered as agencies/cities. Added specifically to fix span-truncation failures on multi-word names the base model recognizes only partially (e.g. 'Aso Rock', 'Federal Ministry of Finance').",
+  "landmarks_and_ministries": [
+    "Aso Rock", "Aso Villa",
+    "National Assembly Complex",
+    "Eagle Square",
+    "Tafawa Balewa Square",
+    "Federal Ministry of Finance",
+    "Federal Ministry of Health",
+    "Federal Ministry of Education",
+    "Federal Ministry of Agriculture",
+    "Federal Ministry of Petroleum Resources",
+    "Federal Ministry of Justice",
+    "Federal Ministry of Interior",
+    "Federal Ministry of Works",
+    "Federal Ministry of Power",
+    "Federal Ministry of Foreign Affairs",
+    "Third Mainland Bridge",
+    "National Stadium",
+    "Eko Stadium", "Eko Atlantic",
+    "Murtala Muhammed International Airport",
+    "Nnamdi Azikiwe International Airport"
+  ]
+}

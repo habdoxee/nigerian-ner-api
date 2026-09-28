@@ -1,0 +1,11 @@
+{
+  "apc": ["All Progressives Congress", "Political Party"],
+  "pdp": ["Peoples Democratic Party", "Political Party"],
+  "labour party": ["Labour Party", "Political Party"],
+  "inec": ["Independent National Electoral Commission", "Government Agency"],
+  "efcc": ["Economic and Financial Crimes Commission", "Government Agency"],
+  "cbn": ["Central Bank of Nigeria", "Government Agency"],
+  "asuu": ["Academic Staff Union of Universities", "Government Agency"],
+  "national assembly": ["National Assembly", "Legislative Body"],
+  "federal ministry of finance": ["Federal Ministry of Finance", "Executive Agency"]
+}
