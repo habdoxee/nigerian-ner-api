@@ -1,0 +1,25 @@
+{
+  "_comment": "National teams and long-standing domestic clubs -- these are stable identities even though rosters change constantly. Individual athlete names are NOT included here since active-player rosters change too fast for a static gazetteer; see politicians_and_officials.json for the same caveat pattern if you want to add athlete names yourself, verified close to your defense date.",
+  "national_teams": [
+    "Super Eagles", "Nigeria national football team",
+    "Super Falcons", "Nigeria women's national football team",
+    "D'Tigers", "Nigeria national basketball team",
+    "D'Tigress", "Nigeria women's national basketball team",
+    "Golden Eaglets", "Flying Eagles"
+  ],
+  "domestic_clubs": [
+    "Enyimba International", "Enyimba FC",
+    "Rangers International",
+    "Kano Pillars",
+    "Rivers United",
+    "Plateau United",
+    "Remo Stars",
+    "Sunshine Stars",
+    "Lobi Stars",
+    "Shooting Stars", "3SC",
+    "Bendel Insurance",
+    "Heartland FC",
+    "Akwa United",
+    "Nigeria Professional Football League", "NPFL"
+  ]
+}

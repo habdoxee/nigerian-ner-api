@@ -2,6 +2,11 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
+# CPU-only torch build -- the default pip install pulls in the full CUDA
+# toolkit (unnecessary here and much larger), which wastes both image size
+# and runtime memory on a CPU-only free-tier instance.
+RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
+
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 

@@ -1,0 +1,26 @@
+{
+  "_comment": "Registered political parties in Nigeria, per INEC as of February 2026 (21 registered parties, source: INEC quarterly consultative meeting, 5 Feb 2026). Verify against inecnigeria.org before your defense in case new parties are registered or others deregistered.",
+  "parties": [
+    "All Progressives Congress", "APC",
+    "Peoples Democratic Party", "PDP",
+    "Labour Party", "LP",
+    "Accord", "A",
+    "Social Democratic Party", "SDP",
+    "All Progressives Grand Alliance", "APGA",
+    "African Democratic Congress", "ADC",
+    "Boot Party", "BP",
+    "Action Democratic Party", "ADP",
+    "Action Alliance", "AA",
+    "Young Progressive Party", "YPP",
+    "National Rescue Movement", "NRM",
+    "Zenith Labour Party", "ZLP",
+    "New Nigeria Peoples Party", "NNPP",
+    "Allied Peoples Movement", "APM",
+    "Peoples Redemption Party", "PRP",
+    "Action Peoples Party", "APP",
+    "Young Progressives Party",
+    "Youth Party", "YP",
+    "Democratic Leadership Alliance", "DLA",
+    "Nigeria Democratic Congress", "NDC"
+  ]
+}

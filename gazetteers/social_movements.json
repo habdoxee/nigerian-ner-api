@@ -1,0 +1,11 @@
+{
+  "_comment": "Named Nigerian social movements/protest hashtags with lasting historical recognition. Stable as historical references; add new ones as they emerge.",
+  "movements": [
+    "EndSARS", "#EndSARS",
+    "EndBadGovernance", "#EndBadGovernance",
+    "BringBackOurGirls", "#BringBackOurGirls",
+    "OccupyNigeria",
+    "Take It Back Movement",
+    "Not Too Young To Run"
+  ]
+}

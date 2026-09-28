@@ -1,0 +1,31 @@
+{
+  "_comment": "Well-known, long-standing Nigerian federal government agencies and institutions. Stable list, low churn.",
+  "agencies": [
+    "Independent National Electoral Commission", "INEC",
+    "Central Bank of Nigeria", "CBN",
+    "Economic and Financial Crimes Commission", "EFCC",
+    "Independent Corrupt Practices Commission", "ICPC",
+    "National Agency for Food and Drug Administration and Control", "NAFDAC",
+    "Federal Road Safety Corps", "FRSC",
+    "Nigerian National Petroleum Corporation", "NNPC",
+    "Nigerian Maritime Administration and Safety Agency", "NIMASA",
+    "Nigerian Ports Authority", "NPA",
+    "Department of State Services", "DSS",
+    "Nigeria Security and Civil Defence Corps", "NSCDC",
+    "Nigeria Police Force", "NPF",
+    "Nigerian Army", "Nigerian Navy", "Nigerian Air Force",
+    "National Emergency Management Agency", "NEMA",
+    "Federal Inland Revenue Service", "FIRS",
+    "National Bureau of Statistics", "NBS",
+    "Nigerian Communications Commission", "NCC",
+    "National Health Insurance Authority", "NHIA",
+    "Nigeria Immigration Service", "NIS",
+    "Nigerian Customs Service", "NCS",
+    "National Drug Law Enforcement Agency", "NDLEA",
+    "Nigerian Correctional Service",
+    "Federal Ministry of Health", "Federal Ministry of Education",
+    "Federal Ministry of Finance", "Federal Ministry of Agriculture",
+    "National Assembly", "Senate", "House of Representatives",
+    "Supreme Court of Nigeria", "Federal High Court"
+  ]
+}

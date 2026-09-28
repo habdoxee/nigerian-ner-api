@@ -1,0 +1,20 @@
+{
+  "_comment": "36 Nigerian states + FCT, with each state's capital and a few other major cities. This list is stable and unlikely to need updates.",
+  "states": [
+    "Abia", "Adamawa", "Akwa Ibom", "Anambra", "Bauchi", "Bayelsa", "Benue",
+    "Borno", "Cross River", "Delta", "Ebonyi", "Edo", "Ekiti", "Enugu",
+    "Gombe", "Imo", "Jigawa", "Kaduna", "Kano", "Katsina", "Kebbi", "Kogi",
+    "Kwara", "Lagos", "Nasarawa", "Niger", "Ogun", "Ondo", "Osun", "Oyo",
+    "Plateau", "Rivers", "Sokoto", "Taraba", "Yobe", "Zamfara",
+    "Federal Capital Territory", "FCT"
+  ],
+  "major_cities": [
+    "Lagos", "Abuja", "Kano", "Ibadan", "Port Harcourt", "Benin City",
+    "Kaduna", "Enugu", "Aba", "Onitsha", "Warri", "Jos", "Ilorin", "Owerri",
+    "Calabar", "Uyo", "Maiduguri", "Zaria", "Abeokuta", "Akure", "Osogbo",
+    "Sokoto", "Bauchi", "Katsina", "Minna", "Yola", "Makurdi", "Lokoja",
+    "Umuahia", "Awka", "Ado Ekiti", "Gombe", "Jalingo", "Damaturu",
+    "Gusau", "Dutse", "Birnin Kebbi", "Lafia", "Asaba", "Ikeja", "Nnewi",
+    "Ilesa", "Iwo", "Ogbomoso", "Ife", "Sagamu", "Ijebu Ode"
+  ]
+}

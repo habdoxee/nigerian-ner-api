@@ -61,14 +61,14 @@ else:
 MODEL_NAME = "Davlan/afro-xlmr-mini"   # smaller + tuned for African languages
 DATASET_DIR = "./combined_ner_dataset"  # change if using Google Drive path
 OUTPUT_DIR = "./results"
+
 FINAL_MODEL_DIR = "/content/drive/MyDrive/ner_model_final"
 
-NUM_EPOCHS = 10                 # bumped from 3 -- loss was still dropping sharply at epoch 3
+NUM_EPOCHS = 10                 # bumped from 3 -- loss was still dropping sharply at epoch 3 
 BATCH_SIZE = 16                 # GPU can handle a bigger batch than CPU could
 GRAD_ACCUM_STEPS = 1            # no longer needed for effective batch size w/ GPU
 LEARNING_RATE = 3e-5            # bumped from 2e-5 -- head starts random, benefits from more signal early
 MAX_LENGTH = 128
-
 # This must match the label order printed by prepare_dataset.py:
 # "Combined label set: [...]"
 LABEL_LIST = [

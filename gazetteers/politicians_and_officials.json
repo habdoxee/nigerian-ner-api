@@ -1,0 +1,12 @@
+{
+  "_comment": "INTENTIONALLY LEFT AS A TEMPLATE, NOT PRE-FILLED. Officeholders (president, governors, ministers, senators, party chairmen) change through elections and reshuffles, and this project's training-data cutoff should not be trusted for who currently holds office. Fill this in yourself with names verified against a current source (e.g. the National Assembly or state government websites) close to your submission/defense date, so your thesis doesn't cite an outdated officeholder as current.",
+  "current_president": [],
+  "current_vice_president": [],
+  "current_state_governors": [],
+  "current_senate_president": [],
+  "current_speaker_house_of_reps": [],
+  "notable_past_officeholders_for_historical_mentions": [
+    "Muhammadu Buhari", "Goodluck Jonathan", "Olusegun Obasanjo",
+    "Umaru Musa Yar'Adua", "Bola Ahmed Tinubu"
+  ]
+}

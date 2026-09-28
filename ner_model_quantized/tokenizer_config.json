@@ -4,12 +4,16 @@
   "bos_token": "<s>",
   "cls_token": "<s>",
   "eos_token": "</s>",
-  "is_local": false,
+  "is_local": true,
   "local_files_only": false,
   "mask_token": "<mask>",
+  "max_length": 128,
   "model_max_length": 512,
   "pad_token": "<pad>",
   "sep_token": "</s>",
+  "stride": 0,
   "tokenizer_class": "XLMRobertaTokenizer",
+  "truncation_side": "right",
+  "truncation_strategy": "longest_first",
   "unk_token": "<unk>"
 }
